@@ -5,7 +5,7 @@ This project was done out of personal interest.
 
 Runemate is a platform that allows users to automate aspects of the game RuneScape.
 
-**Warning: using third-party is against the terms of service from RuneScape**
+**Warning: using third-party software is against the terms of service from RuneScape**
 
 Personally, writing these scripts has helped me get into development, specifically Java. This is the reason behind this repository: completing the circle of learning.
 
