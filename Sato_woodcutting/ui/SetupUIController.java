@@ -70,7 +70,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = false;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Oak") {
                             main.treeArea = main.draynor_Tree_Area;
                             main.bankArea = main.draynor_Bank_Area;
@@ -80,7 +79,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Tree") {
                             main.treeArea = main.draynor_Tree_Area;
                             main.bankArea = main.draynor_Bank_Area;
@@ -90,7 +88,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Arceuus":
@@ -103,7 +100,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = false;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Barbarian Assault":
@@ -116,7 +112,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Oak") {
                             main.treeArea = main.Barb_Tree_Area;
                             main.bankArea = main.Barb_Bank_Area;
@@ -126,7 +121,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Willow") {
                             main.treeArea = main.Barb_Tree_Area;
                             main.bankArea = main.Barb_Bank_Area;
@@ -136,7 +130,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         }
                         break;
                     case "Castle Wars":
@@ -149,7 +142,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Oak") {
                             main.treeArea = main.CastleWars_Tree_Area;
                             main.bankArea = main.CastleWars_Bank_Area;
@@ -159,7 +151,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Teak") {
                             main.treeArea = main.CastleWars_Tree_Area;
                             main.bankArea = main.CastleWars_Bank_Area;
@@ -170,7 +161,6 @@ public class SetupUIController implements Initializable {
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
                             main.delay = 20000;
-                            main.spec = true;
                         }
                         break;
                     case "Catherby":
@@ -183,7 +173,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }  else if (Tree.getSelectionModel().getSelectedItem().toString() == "Oak") {
                             main.treeArea =main.Catherby_Tree_Area;
                             main.bankArea = main.Catherby_Bank_Area;
@@ -193,7 +182,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }   else if (Tree.getSelectionModel().getSelectedItem().toString() == "Willow") {
                             main.treeArea = main.Catherby_Tree_Area;
                             main.bankArea = main.Catherby_Bank_Area;
@@ -203,7 +191,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if (Tree.getSelectionModel().getSelectedItem().toString() == "Tree") {
                             main.treeArea = main.Catherby_Tree_Area;
                             main.bankArea = main.Catherby_Bank_Area;
@@ -213,7 +200,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Corsair Cove":
@@ -226,7 +212,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Maple"){
                             main.treeArea =main.CorsairCove_Tree_Area;
                             main.bankArea = main.CorsairCove_Bank_Area;
@@ -236,7 +221,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Edgevile":
@@ -249,7 +233,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Willow"){
                             main.treeArea =main.Edgevile_Tree_Area;
                             main.bankArea = main.Edgevile_Bank_Area;
@@ -259,7 +242,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Yew"){
                             main.treeArea =main.Edgevile_Tree_Area;
                             main.bankArea = main.Edgevile_Bank_Area;
@@ -269,7 +251,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Falador":
@@ -282,7 +263,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Oak"){
                             main.treeArea =main.Falador_Tree_Area;
                             main.bankArea = main.Falador_Bank_Area;
@@ -292,7 +272,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Yew"){
                             main.treeArea =main.Falador_Tree_Area;
                             main.bankArea = main.Falador_Bank_Area;
@@ -302,7 +281,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Grand Exchange":
@@ -315,7 +293,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Grand Exchange Booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Yew"){
                             main.treeArea =main.GE_Tree_Area;
                             main.bankArea = main.GE_Bank_Area;
@@ -325,7 +302,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Grand Exchange Booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Hosidius":
@@ -338,7 +314,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }else if(Tree.getSelectionModel().getSelectedItem().toString() == "Oak"){
                             main.treeArea =main.Hosidius_Tree_Area;
                             main.bankArea = main.Hosidius_Bank_Area;
@@ -348,7 +323,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Varrock Sawmill":
@@ -361,7 +335,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Oak"){
                             main.treeArea =main.Sawmill_Tree_Area;
                             main.bankArea = main.Sawmill_Bank_Area;
@@ -371,7 +344,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Yew"){
                             main.treeArea =main.Sawmill_Tree_Area;
                             main.bankArea = main.Sawmill_Bank_Area;
@@ -381,7 +353,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Seers Village":
@@ -394,7 +365,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Oak"){
                             main.treeArea =main.Seers_Tree_Area;
                             main.bankArea = main.Seers_Bank_Area;
@@ -404,7 +374,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Willow"){
                             main.treeArea =main.Seers_Tree_Area;
                             main.bankArea = main.Seers_Bank_Area;
@@ -414,7 +383,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Maple"){
                             main.treeArea =main.Seers_Tree_Area;
                             main.bankArea = main.Seers_Bank_Area;
@@ -424,7 +392,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         } else if(Tree.getSelectionModel().getSelectedItem().toString() == "Yew"){
                             main.treeArea =main.Seers_Tree_Area;
                             main.bankArea = main.Seers_Bank_Area;
@@ -434,7 +401,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }else if(Tree.getSelectionModel().getSelectedItem().toString() == "Magic"){
                             main.treeArea =main.Seers_Tree_Area;
                             main.bankArea = main.Seers_Bank_Area;
@@ -444,7 +410,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = true;
                             main.bank = "Bank booth";
                             main.bankingtype = "Bank";
-                            main.spec = false;
                         }
                         break;
                     case "Woodcutting guild":
@@ -457,7 +422,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = false;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         }else if(Tree.getSelectionModel().getSelectedItem().toString() == "Magic"){
                             main.treeArea =main.WC_Tree_Area;
                             main.bankArea = main.WC_Bank_Area;
@@ -467,7 +431,6 @@ public class SetupUIController implements Initializable {
                             main.Restricted = false;
                             main.bank = "Bank chest";
                             main.bankingtype = "Use";
-                            main.spec = false;
                         }
                         break;
                 }
@@ -588,52 +551,22 @@ public class SetupUIController implements Initializable {
         };
     }
 
-    public enum LogTypes {
-        Tree,
-        Oak,
-        Willow,
-        Teak,
-        Maple,
-        Yew,
-        Magic,
-       // Redwood,
-    }
+    private Map<LogTypes, Image> TreeImages = createTreeImages();
 
-    public class MonsterCell extends ListCell<LogTypes> {
-        private ImageView imageView = new ImageView();
-
-        @Override
-        protected void updateItem(LogTypes item, boolean empty) {
-            super.updateItem(item, empty);
-
-            if (item == null || empty) {
-                imageView.setImage(null);
-                setGraphic(null);
-            } else {
-                imageView.setImage(monsterImages.get(item));
-                imageView.setFitWidth(16);
-                imageView.setFitHeight(16);
-                setGraphic(imageView);
-                setText(item.toString());
-            }
-        }
-    }
-    private Map<LogTypes, Image> monsterImages = createMonsterImages();
-
-    private Map<LogTypes, Image> createMonsterImages() {
-        Map<LogTypes, Image> monsterImages = new HashMap<>();
+    private Map<LogTypes, Image> createTreeImages() {
+        Map<LogTypes, Image> TreeImages = new HashMap<>();
 
         for (LogTypes logTypes : LogTypes.values()) {
-            monsterImages.put(
+            TreeImages.put(
                     logTypes,
                     new Image(
                             Objects.requireNonNull(
                                     SetupUIController.class.getClassLoader().getResource(
-                                            "com/Gearsas/bots/Sato_woodcutting/ui/" + logTypes + ".png")).toExternalForm()
+                                            "location to logs/" + logTypes + ".png")).toExternalForm()
                     )
             );
         }
 
-        return monsterImages;
+        return TreeImages;
     }
 }
